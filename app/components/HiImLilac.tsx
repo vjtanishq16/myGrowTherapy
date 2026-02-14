@@ -49,14 +49,8 @@ export default function HiImLilac() {
               </div>
             </div>
 
-            {/* Circle Image - Maya's second photo */}
-            <div className="absolute -bottom-4 right-0 md:-right-6 w-[160px] h-[160px] md:w-[200px] md:h-[200px] rounded-full overflow-hidden border-4 border-light shadow-md">
-              <img
-                src="https://lh3.googleusercontent.com/d/1DwpoQD0VWsfGsl4J1CwtSb3Wxy5ePVJW"
-                alt="Dr. Maya Reynolds"
-                className="w-full h-full object-cover"
-              />
-            </div>
+            {/* Circle accent - warm olive */}
+            <div className="absolute -bottom-4 right-0 md:-right-6 w-[140px] h-[140px] md:w-[170px] md:h-[170px] rounded-full bg-olive/20 border-4 border-light" />
           </div>
         </div>
       </div>
