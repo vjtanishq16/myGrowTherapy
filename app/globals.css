@@ -1,26 +1,115 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Color Palette from Lilac Template */
+  --color-cream: #F7F5F0;
+  --color-cream-dark: #EDE9E0;
+  --color-dark: #2B3527;
+  --color-dark-bg: #232B21;
+  --color-olive: #7A7745;
+  --color-muted: #4A5648;
+  --color-border: #E8E4DF;
+  --color-white: #ffffff;
+  --color-light: #F5F2ED;
+  --color-bright: #F0EDE6;
+  --color-accent: #8B7B8B;
+
+  /* Font families */
+  --font-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Nunito Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-cream);
+  color: var(--color-dark);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Arched window clip path */
+.clip-arch {
+  clip-path: ellipse(50% 100% at 50% 100%);
+}
+
+/* Custom arch shape matching Squarespace */
+.mask-arch {
+  clip-path: url(#arch-mask);
+}
+
+/* Accordion transition */
+.accordion-enter {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.accordion-enter-active {
+  max-height: 500px;
+}
+
+/* Button outline style matching template */
+.btn-outline {
+  display: inline-block;
+  padding: 16px 32px;
+  border: 1px solid currentColor;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-outline:hover {
+  background: var(--color-dark);
+  color: var(--color-white);
+  border-color: var(--color-dark);
+}
+
+.btn-outline-light {
+  display: inline-block;
+  padding: 16px 32px;
+  border: 1px solid var(--color-white);
+  color: var(--color-white);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-outline-light:hover {
+  background: var(--color-white);
+  color: var(--color-dark);
+}
+
+.btn-solid {
+  display: inline-block;
+  padding: 16px 32px;
+  background: var(--color-dark);
+  color: var(--color-white);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+  border: 1px solid var(--color-dark);
+}
+
+.btn-solid:hover {
+  background: transparent;
+  color: var(--color-dark);
 }
