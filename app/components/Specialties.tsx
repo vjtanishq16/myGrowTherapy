@@ -1,25 +1,25 @@
 export default function Specialties() {
   const specialties = [
     {
-      title: 'Self-Esteem',
+      title: 'Anxiety & Panic',
       description:
-        "Building a strong sense of self-worth is key to living a fulfilled life. Let's work together to bolster your self-esteem.",
+        'Constant worry, racing thoughts, tension in your body, difficulty sleeping—anxiety can feel all-consuming. I help you understand both the emotional and physiological sides of what you\'re experiencing, so you can find lasting relief.',
       image:
-        'https://images.squarespace-cdn.com/content/v1/65d10c6adcfabe1819ed4e07/166607b6-21a7-4e30-8c74-9c911c9f33fb/milles-studio-GU-Q4-SQFTg-unsplash.jpg?format=750w',
+        'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=750&q=80',
     },
     {
-      title: 'Relationships',
+      title: 'Trauma & EMDR',
       description:
-        "Navigating relationships can be complex. I'm here to guide you through these complexities to help you form healthier connections.",
+        'Whether from a single incident or long-standing patterns from childhood, trauma can continue to affect your relationships, confidence, and sense of safety. My approach is paced carefully, with an emphasis on safety and stabilization.',
       image:
-        'https://images.squarespace-cdn.com/content/v1/65d10c6adcfabe1819ed4e07/f53aed66-5bd9-43e0-b00b-3a3537fed68d/ori-song-LPbKfdQJS2E-unsplash.jpg?format=750w',
+        'https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=750&q=80',
     },
     {
-      title: 'Burnout',
+      title: 'Burnout & Perfectionism',
       description:
-        "Feeling overwhelmed by your career is more common than you think. Together, we'll identify strategies to manage and prevent burnout.",
+        'Many entrepreneurs, creatives, and professionals feel disconnected from themselves after years of pushing through stress. Therapy becomes a space to slow down, reconnect, and develop more sustainable ways of living and working.',
       image:
-        'https://images.squarespace-cdn.com/content/v1/65d10c6adcfabe1819ed4e07/515651b9-4001-47ae-8ca1-2a6ff8f2bef0/ivana-cajina--wn1PECo5-U-unsplash.jpg?format=750w',
+        'https://images.unsplash.com/photo-1519824145371-296894a0daa9?w=750&q=80',
     },
   ];
 
@@ -29,7 +29,7 @@ export default function Specialties() {
         {/* Section Title */}
         <div className="text-center mb-12">
           <p className="font-sans text-[16px] md:text-[17px] text-dark">
-            My Specialties
+            Areas of Focus
           </p>
         </div>
 

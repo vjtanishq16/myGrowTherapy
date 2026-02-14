@@ -9,17 +9,17 @@ export default function Credentials() {
     {
       title: 'Education',
       content:
-        'Euphorbia dianthus alchemilla muscari lavandula anthurium artemesia false artemesia moluccella gladiolus cirsium trollius anthurium prunus delphinium achillea.',
+        'Doctor of Psychology (PsyD) in Clinical Psychology. Advanced training in trauma-focused therapies and evidence-based treatment modalities.',
     },
     {
       title: 'Licensure',
       content:
-        'Euphorbia dianthus alchemilla muscari lavandula anthurium artemesia false artemesia moluccella gladiolus cirsium trollius anthurium prunus delphinium achillea.',
+        'Licensed Clinical Psychologist in the State of California. Authorized to provide both in-person and telehealth therapy services statewide.',
     },
     {
-      title: 'Certifications',
+      title: 'Specializations',
       content:
-        'Euphorbia dianthus alchemilla muscari lavandula anthurium artemesia false artemesia moluccella gladiolus cirsium trollius anthurium prunus delphinium achillea.',
+        'Cognitive Behavioral Therapy (CBT), Eye Movement Desensitization and Reprocessing (EMDR), Mindfulness-Based Stress Reduction, and Body-Oriented therapeutic techniques.',
     },
   ];
 

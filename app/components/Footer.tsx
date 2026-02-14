@@ -8,19 +8,19 @@ export default function Footer() {
             {/* Column 1: Contact Info */}
             <div>
               <h3 className="font-serif text-[26px] md:text-[30px] text-dark font-bold mb-8">
-                Lilac Template
+                Dr. Maya Reynolds
               </h3>
               <div className="space-y-1 font-sans text-[14px] md:text-[15px] text-dark leading-[1.7]">
-                <p>123 Example Road</p>
-                <p>Minneapolis, MN</p>
+                <p>123th Street 45 W</p>
+                <p>Santa Monica, CA 90401</p>
                 <p className="mt-4">
-                  <a href="mailto:email@example.com" className="underline hover:opacity-70 transition-opacity">
-                    email@example.com
+                  <a href="mailto:hello@drmayareynolds.com" className="underline hover:opacity-70 transition-opacity">
+                    hello@drmayareynolds.com
                   </a>
                 </p>
                 <p>
-                  <a href="tel:+15555555555" className="underline hover:opacity-70 transition-opacity">
-                    (555) 555-5555
+                  <a href="tel:+13105550199" className="underline hover:opacity-70 transition-opacity">
+                    (310) 555-0199
                   </a>
                 </p>
               </div>
@@ -33,7 +33,7 @@ export default function Footer() {
               </h4>
               <div className="font-sans text-[14px] md:text-[15px] text-dark leading-[1.7]">
                 <p>Monday – Friday</p>
-                <p>10am – 6pm</p>
+                <p>9am – 6pm</p>
               </div>
             </div>
 
@@ -46,11 +46,14 @@ export default function Footer() {
                 <a href="#home" className="block underline hover:opacity-70 transition-opacity">
                   Home
                 </a>
+                <a href="#about" className="block underline hover:opacity-70 transition-opacity">
+                  About
+                </a>
+                <a href="#services" className="block underline hover:opacity-70 transition-opacity">
+                  Services
+                </a>
                 <a href="#contact" className="block underline hover:opacity-70 transition-opacity">
                   Contact
-                </a>
-                <a href="#" className="block underline hover:opacity-70 transition-opacity">
-                  Blog
                 </a>
               </nav>
             </div>
@@ -88,7 +91,7 @@ export default function Footer() {
 
             {/* Copyright */}
             <p className="font-sans text-[12px] md:text-[13px] text-muted">
-              All Rights Reserved © 2024 Your Business Name Here, LLC.
+              All Rights Reserved © 2025 Dr. Maya Reynolds, PsyD.
             </p>
           </div>
         </div>

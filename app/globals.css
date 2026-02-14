@@ -1,18 +1,18 @@
 @import "tailwindcss";
 
 @theme inline {
-  /* Color Palette from Lilac Template */
-  --color-cream: #F7F5F0;
-  --color-cream-dark: #EDE9E0;
-  --color-dark: #2B3527;
-  --color-dark-bg: #232B21;
-  --color-olive: #7A7745;
-  --color-muted: #4A5648;
-  --color-border: #E8E4DF;
+  /* Color Palette - Calm Coastal Therapy */
+  --color-cream: #F5F1EB;
+  --color-cream-dark: #E8E2D8;
+  --color-dark: #2C3E50;
+  --color-dark-bg: #243242;
+  --color-olive: #6B8F7B;
+  --color-muted: #5D7A8C;
+  --color-border: #D9D3C7;
   --color-white: #ffffff;
-  --color-light: #F5F2ED;
-  --color-bright: #F0EDE6;
-  --color-accent: #8B7B8B;
+  --color-light: #EDE8E0;
+  --color-bright: #E8E3DA;
+  --color-accent: #8FA7B8;
 
   /* Font families */
   --font-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;

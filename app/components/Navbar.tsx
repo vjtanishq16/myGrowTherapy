@@ -15,7 +15,8 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { name: 'Blog', href: '#faq' },
+    { name: 'About', href: '#about' },
+    { name: 'Services', href: '#services' },
     { name: 'Contact', href: '#contact' },
   ];
 
@@ -67,7 +68,7 @@ export default function Navbar() {
             href="#home"
             className="font-serif text-[22px] md:text-[24px] tracking-[-0.02em] text-dark hover:opacity-70 transition-opacity font-semibold md:order-first"
           >
-            Lilac Template
+            Dr. Maya Reynolds
           </a>
         </div>
       </div>

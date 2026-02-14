@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Lilac Template",
-  description: "Therapy for Adults in Minneapolis, MN",
+  title: "Dr. Maya Reynolds, PsyD | Anxiety & Trauma Therapist in Santa Monica, CA",
+  description: "Licensed Clinical Psychologist in Santa Monica offering therapy for anxiety, trauma, EMDR, and burnout. In-person and telehealth sessions for adults in California.",
 };
 
 export default function RootLayout({

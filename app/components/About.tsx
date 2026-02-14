@@ -8,16 +8,18 @@ export default function About() {
           <div className="flex flex-col justify-center px-[6vw] md:px-[4vw] py-16 md:py-24 order-2 md:order-1">
             <div className="max-w-[520px]">
               <h2 className="font-serif italic text-[36px] md:text-[44px] lg:text-[52px] leading-[1.15] text-dark font-normal mb-6">
-                Live a fulfilling life.
+                Reclaim your peace of mind.
               </h2>
               <div className="space-y-5 text-dark">
                 <p className="font-sans text-[16px] md:text-[17px] leading-[1.7]">
-                  Life can be challenging—especially when you&apos;re trying to
-                  balance your personal and professional life.
+                  Many of the people I work with are high-achieving, thoughtful,
+                  and self-aware—but internally feel exhausted, stuck in
+                  overthinking, or emotionally on edge.
                 </p>
                 <p className="font-sans text-[16px] md:text-[17px] leading-[1.7]">
-                  It&apos;s easy to feel like you&apos;re alone in facing these
-                  challenges, but I want you to know that I&apos;m here to help.
+                  I take a warm, collaborative, and grounded approach to therapy.
+                  Sessions are structured enough to feel supportive, while still
+                  leaving space for reflection and depth.
                 </p>
               </div>
             </div>
@@ -26,8 +28,8 @@ export default function About() {
           {/* Right: Full-bleed Image */}
           <div className="order-1 md:order-2 min-h-[400px] md:min-h-full">
             <img
-              src="https://images.squarespace-cdn.com/content/v1/65d10c6adcfabe1819ed4e07/87fa2310-36df-4a24-a9e9-1b74df73f150/tanya-trukyr-ornZV1YJNNo-unsplash.jpg?format=1500w"
-              alt="Woman with flowers"
+              src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1500&q=80"
+              alt="Calm therapy office interior with natural light"
               className="w-full h-full object-cover"
             />
           </div>
@@ -40,7 +42,7 @@ export default function About() {
               href="#contact"
               className="block w-full text-center py-5 font-sans text-[14px] tracking-[1.5px] uppercase text-dark hover:bg-dark hover:text-white transition-all duration-300"
             >
-              Get in touch&nbsp;&nbsp;→
+              Learn more&nbsp;&nbsp;→
             </a>
           </div>
         </div>

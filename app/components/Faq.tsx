@@ -7,16 +7,19 @@ export default function FAQ() {
 
   const faqs = [
     {
-      question: 'Do you take insurance?',
-      answer: 'Answer goes here.',
+      question: 'What does a typical session look like?',
+      answer:
+        'Sessions are structured enough to feel supportive, while still leaving space for reflection and depth. I integrate evidence-based methods such as CBT, EMDR, mindfulness-based practices, and body-oriented techniques tailored to your needs.',
     },
     {
-      question: 'What are your rates?',
-      answer: 'Answer goes here.',
+      question: 'Do you offer telehealth sessions?',
+      answer:
+        'Yes. I offer both in-person therapy from my Santa Monica office and secure telehealth sessions for clients located anywhere in California.',
     },
     {
-      question: 'Do you have any openings?',
-      answer: 'Answer goes here.',
+      question: 'What issues do you specialize in?',
+      answer:
+        'I specialize in anxiety, panic, trauma, EMDR, professional burnout, and perfectionism. I work primarily with high-achieving adults, entrepreneurs, creatives, and professionals.',
     },
   ];
 
@@ -42,8 +45,8 @@ export default function FAQ() {
               style={{ clipPath: 'url(#arch-clip-faq)' }}
             >
               <img
-                src="https://images.squarespace-cdn.com/content/v1/65d10c6adcfabe1819ed4e07/3a7e28f0-28fd-47cd-9857-6c415afed795/myxa69-APKZU4NJcgs-unsplash.jpg?format=1000w"
-                alt="Purple flowers"
+                src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=1000&q=80"
+                alt="Sunlight through leaves, calm and peaceful"
                 className="w-full h-full object-cover"
               />
             </div>

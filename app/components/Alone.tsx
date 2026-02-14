@@ -1,10 +1,10 @@
 export default function Alone() {
   const challenges = [
-    'Persistent feelings of sadness or hopelessness',
-    'Trouble focusing or making decisions',
-    'Difficulty maintaining relationships',
-    'Feeling constantly exhausted or unmotivated',
-    'A pervasive sense of being overwhelmed',
+    'Constant worry or racing thoughts that won\u2019t quiet down',
+    'Tension in your body, difficulty sleeping, or feeling on edge',
+    'Lingering effects of past experiences on your relationships',
+    'Professional burnout or high internal pressure',
+    'A sense of being \u201cfunctional\u201d on the outside while quietly struggling',
   ];
 
   return (
@@ -13,8 +13,8 @@ export default function Alone() {
         {/* Left Image - Full Bleed */}
         <div className="aspect-[4/3] md:aspect-auto">
           <img
-            src="https://images.squarespace-cdn.com/content/v1/65d10c6adcfabe1819ed4e07/a77b422e-33ac-47b2-825f-293d33884041/valeriia-miller-5jR4rAMs5tk-unsplash+%281%29.jpg?format=1500w"
-            alt="Flowers"
+            src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=1500&q=80"
+            alt="Thoughtful professional woman by window"
             className="w-full h-full object-cover"
           />
         </div>
@@ -24,12 +24,12 @@ export default function Alone() {
           <div className="flex items-center flex-1 px-[6vw] py-16 md:py-20">
             <div className="max-w-[480px]">
               <h2 className="font-serif italic text-[28px] md:text-[32px] lg:text-[36px] text-dark font-normal leading-[1.3] mb-8">
-                You don&apos;t have to do this all{' '}
+                You don&apos;t have to keep pushing through{' '}
                 <em className="not-italic">alone</em>.
               </h2>
 
               <p className="font-sans text-[14px] md:text-[15px] text-dark leading-[1.7] mb-6">
-                If you are facing any of these, there&apos;s hope:
+                If you&apos;re experiencing any of these, therapy can help:
               </p>
 
               <ul className="space-y-3 mb-8">
@@ -45,8 +45,9 @@ export default function Alone() {
               </ul>
 
               <p className="font-sans text-[14px] md:text-[15px] text-dark leading-[1.7]">
-                With empathy and guidance, we&apos;ll work together to navigate
-                the challenges life throws your way.
+                My goal is not just symptom relief, but helping you develop
+                insight, resilience, and a stronger relationship with yourself
+                over time.
               </p>
             </div>
           </div>
